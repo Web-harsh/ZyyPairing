@@ -12,6 +12,7 @@ const {
   PHONENUMBER_MCC,
 } = require("@whiskeysockets/baileys");
 
+/*
 global.sessionName = "auth-info";
 const pairingCode = process.argv.includes("--use-pairing-code");
 
@@ -19,7 +20,7 @@ if (!pairingCode) {
   console.log(chalk.redBright("Use --use-pairing-code"));
   process.exit(1);
 }
-
+*/
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
